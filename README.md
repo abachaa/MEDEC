@@ -1,18 +1,26 @@
 # MEDEC Dataset
 
-MEDEC is the first dataset for medical error detection and correction in clinical notes (e.g., diagnosis, treatment). It includes a total of 3,848 clinical texts from the MS and UW collections. 
+MEDEC is the first dataset for medical error detection and correction in clinical notes (e.g., diagnosis, treatment). 
+
+
+<a href="url"><img src="https://github.com/abachaa/MEDEC/blob/main/medec-exps" align="right" height="450" width="550" ></a>
+
+It includes a total of 3,848 clinical texts from the MS and UW collections. 
 
 - The training set contains 2,189 MS texts. 
   - The MS Validation Set (#1) contains 574 clinical texts.
   - The UW Validation Set (#2) contains 160 clinical texts.
 - The test includes 597 MS texts and 328 UW texts.
 
-Each clinical text is either correct or contains one error. The task consists in: (a) predicting the error flag (1: the text contains an error, 0: the text has no errors), and for flagged texts (with error): (b) extracting the sentence that contains the error, and (c) generating a corrected sentence.
+Each clinical text is either correct or contains one error. The task consists in: 
+- (a) predicting the error flag (1: the text contains an error, 0: the text has no errors), and for flagged texts (with error):
+- (b) extracting the sentence that contains the error, and
+- (c) generating a corrected sentence.
 
 
 MEDEC Paper
 =================
-- 
+
 
 MEDIQA-CORR Shared Task  
 =================
