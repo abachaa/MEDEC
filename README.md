@@ -20,8 +20,8 @@ Each clinical text is either correct or contains one error. The task consists in
     - (C) generating a corrected sentence.
 
 **DATA:**
-- **MEDEC-MS Collection:** 
-- **MEDEC-UW Collection:** Please send an email to medec-uw@googlegroups.com to receive the UW Data Usage Agreement (DUA) required to have access to the MEDEC-UW notes.
+- **MEDEC-MS Collection:** https://github.com/abachaa/MEDEC/tree/main/MEDEC-MS (MEDEC-MS Training, Validation, and Test Sets)
+- **MEDEC-UW Collection:** Please send an email to medec-uw@googlegroups.com to receive the UW Data Usage Agreement (DUA) required to have access to the MEDEC-UW Validation & Test sets.
 
 
 MEDEC Paper
@@ -55,7 +55,8 @@ MEDIQA-CORR Shared Task
 The dataset has been introduced for the first shared task on medical error detection and correction: MEDIQA-CORR @ NAACL-ClinicalNLP 2024  
 
 * **Website:** https://sites.google.com/view/mediqa2024/mediqa-corr
-* **Shared Task Paper:** https://aclanthology.org/2024.clinicalnlp-1.57.pdf 
+* **Shared Task Paper:** https://aclanthology.org/2024.clinicalnlp-1.57.pdf
+* **GitHub:** https://github.com/abachaa/MEDIQA-CORR-2024
 
 Evaluation
 =================
