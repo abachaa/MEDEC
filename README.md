@@ -63,9 +63,8 @@ Evaluation
 
 Evaluation metrics and scripts: [https://github.com/abachaa/MEDIQA-CORR-2024 ](https://github.com/abachaa/MEDIQA-CORR-2024/tree/main/evaluation) 
 
-
-Citation
-=================
+## <h2>License</h2>
+- This work is published under a Creative Commons Attribution 4.0 International License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Please cite our paper: 
     
         @article{medec,
           author     = {Asma {Ben Abacha} and Wen-wai Yim and Yujuan Fu and Zhaoyi Sun and Meliha Yetisgen and Fei Xia and Thomas Lin},
