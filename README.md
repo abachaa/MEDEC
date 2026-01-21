@@ -27,27 +27,8 @@ Each clinical text is either correct or contains one error. The task consists in
 MEDEC Paper
 =================
 
-- **PDF**: https://arxiv.org/pdf/2412.19260
-- **Abstract**: Several studies showed that Large Language Models (LLMs) can answer medical questions correctly,
-even outperforming the average human score in some medical exams. However, to our knowledge,
-no study has been conducted to assess the ability of language models to validate existing or generated
-medical text for correctness and consistency. In this paper, we introduce MEDEC, the first publicly
-available benchmark for medical error detection and correction in clinical notes, covering five types
-of errors (Diagnosis, Management, Treatment, Pharmacotherapy, and Causal Organism). MEDEC
-consists of 3,848 clinical texts, including 488 clinical notes from three US hospital systems that were
-not previously seen by any LLM. The dataset has been used for the MEDIQA-CORR shared task
-to evaluate seventeen participating systems [Ben Abacha et al., 2024]. In this paper, we describe
-the data creation methods and we evaluate recent LLMs (e.g., o1-preview, GPT-4, Claude 3.5
-Sonnet, and Gemini 2.0 Flash) for the tasks of detecting and correcting medical errors requiring
-both medical knowledge and reasoning capabilities. We also conducted a comparative study where
-two medical doctors performed the same task on the MEDEC test set. The results showed that
-MEDEC is a sufficiently challenging benchmark to assess the ability of models to validate existing
-or generated notes and to correct medical errors. We also found that although recent LLMs have a
-good performance in error detection and correction, they are still outperformed by medical doctors in
-these tasks. We discuss the potential factors behind this gap, the insights from our experiments, the
-limitations of current evaluation metrics, and share potential pointers for future research.
-
-     
+- **PDF**: https://aclanthology.org/2025.findings-acl.1159.pdf 
+- **Abstract**: Several studies have shown that Large Language Models (LLMs) can answer medical questions correctly, even outperforming the average human score in some medical exams. However, to our knowledge, no study has been conducted to assess the ability of language models to validate existing or generated medical text for correctness and consistency. In this paper, we introduce MEDEC, the first publicly available benchmark for medical error detection and correction in clinical notes, covering five types of errors (Diagnosis, Management, Treatment, Pharmacotherapy, and Causal Organism). MEDEC consists of 3,848 clinical texts, including 488 clinical notes from three US hospital systems that were not previously seen by any LLM. The dataset has been used in the MEDIQA-CORR 2024 shared task to evaluate seventeen participating systems [Ben Abacha et al., 2024](https://aclanthology.org/2024.clinicalnlp-1.57.pdf). In this paper, we describe the data creation methods and we evaluate recent LLMs (e.g., o1-preview, GPT-4, Claude 3.5 Sonnet, Gemini 2.0 Flash, and DeepSeek-R1) for the tasks of detecting and correcting medical errors requiring both medical knowledge and reasoning capabilities. We also conducted a comparative study where two medical doctors performed the same task on the MEDEC test set. The results showed that MEDEC is a sufficiently challenging benchmark to assess the ability of models to validate existing or generated notes and to correct medical errors. We also found that although recent LLMs have a good performance in error detection and correction, they are still outperformed by medical doctors in these tasks. We discuss the potential factors behind this gap, the insights from our experiments, the limitations of current evaluation metrics, and share potential pointers for future research. 
 
 MEDIQA-CORR Shared Task  
 =================
@@ -63,18 +44,26 @@ Evaluation
 
 Evaluation metrics and scripts: [https://github.com/abachaa/MEDIQA-CORR-2024 ](https://github.com/abachaa/MEDIQA-CORR-2024/tree/main/evaluation) 
 
-## <h2>License</h2>
-- This work is published under a Creative Commons Attribution 4.0 International License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Please cite our paper: 
-    
-        @article{medec,
-          author     = {Asma {Ben Abacha} and Wen-wai Yim and Yujuan Fu and Zhaoyi Sun and Meliha Yetisgen and Fei Xia and Thomas Lin},
-          title      = {MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes},
-          journal    = {CoRR}, 
-          eprinttype = {arXiv},
-          url        = {https://arxiv.org/pdf/2412.19260}, 
-          year       = {2024}
-          }
+MEDEC-MS
+=================
+**Formatting issues:**  The raw data used to create MEDEC-MS contains some formatting issues (e.g., non-standard characters and unintended line breaks).   
 
+If you are comparing your results with other published work, we recommend using the original MEDEC-MS dataset published here. 
+
+If you prefer an updated version that resolves some of these issues, please refer to Max Kieffer's repo: https://huggingface.co/datasets/mkieffer/MEDEC 
+
+## <h2>License</h2>
+- This work is released under the Creative Commons Attribution 4.0 International License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Please cite our paper if you use the full dataset or any subset of MEDEC: 
+    
+        @inproceedings{medec,
+          author       = {Asma {Ben Abacha} and Wen{-}wai Yim and Yujuan Fu and Zhaoyi Sun and Meliha Yetisgen and Fei Xia and Thomas Lin}, 
+          title        = {{MEDEC:} {A} Benchmark for Medical Error Detection and Correction in Clinical Notes}, 
+          booktitle    = {Findings of the Association for Computational Linguistics, {ACL} 2025, Vienna, Austria, July 27 - August 1, 2025}, 
+          pages        = {22539--22550}, 
+          publisher    = {Association for Computational Linguistics}, 
+          year         = {2025}, 
+          url          = {https://aclanthology.org/2025.findings-acl.1159/} 
+          }
 
 Contact
 =================
