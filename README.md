@@ -57,8 +57,8 @@ If you prefer an updated version that resolves some of these issues, please refe
     
         @inproceedings{medec,
           author       = {Asma {Ben Abacha} and Wen{-}wai Yim and Yujuan Fu and Zhaoyi Sun and Meliha Yetisgen and Fei Xia and Thomas Lin}, 
-          title        = {{MEDEC:} {A} Benchmark for Medical Error Detection and Correction in Clinical Notes}, 
-          booktitle    = {Findings of the Association for Computational Linguistics, {ACL} 2025, Vienna, Austria, July 27 - August 1, 2025}, 
+          title        = {MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes}, 
+          booktitle    = {Findings of the Association for Computational Linguistics, ACL 2025, Vienna, Austria, July 27 - August 1, 2025}, 
           pages        = {22539--22550}, 
           publisher    = {Association for Computational Linguistics}, 
           year         = {2025}, 
