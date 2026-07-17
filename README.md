@@ -19,10 +19,6 @@ Each clinical text is either correct or contains one error. The task consists in
     - (B) extracting the sentence that contains the error, and
     - (C) generating a corrected sentence.
 
-**DATA:**
-- **MEDEC-MS Collection:** https://github.com/abachaa/MEDEC/tree/main/MEDEC-MS (MEDEC-MS Training, Validation, and Test Sets)
-- **MEDEC-UW Collection:** Please send an email to medec-uw@googlegroups.com to receive the UW Data Usage Agreement (DUA) required to have access to the MEDEC-UW Validation & Test sets.
-
 
 MEDEC Paper
 =================
@@ -44,15 +40,25 @@ Evaluation
 
 Evaluation metrics and scripts: [https://github.com/abachaa/MEDIQA-CORR-2024 ](https://github.com/abachaa/MEDIQA-CORR-2024/tree/main/evaluation) 
 
-MEDEC-MS
+
+Data Access
 =================
-**Formatting issues:**  The raw data used to create MEDEC-MS contains some formatting issues (e.g., non-standard characters and unintended line breaks).   
+
+- **MEDEC-MS Collection:** The MEDEC-MS Training, Validation, and Test sets are publicly available on GitHub: https://github.com/abachaa/MEDEC/tree/main/MEDEC-MS
+  
+- **MEDEC-UW Collection:**  Access to the MEDEC-UW Validation and Test sets is available upon request. To request access, please contact melihay@uw.edu, and include your name, institutional affiliation, and a brief description of your intended use of the data. Requests are subject to pre-approval by the University of Washington (UW). If approved, you will receive a Data Use Agreement (DUA) to complete and sign. Once the signed DUA has been received and approved by UW, access to the dataset will be granted.
+
+
+<h2>MEDEC-MS</h2>
+- Formatting issues: The raw data used to create MEDEC-MS contains some formatting issues (e.g., non-standard characters and unintended line breaks).   
 
 If you are comparing your results with other published work, we recommend using the original MEDEC-MS dataset published here. 
 
 If you prefer an updated version that resolves some of these issues, please refer to Max Kieffer's repo: https://huggingface.co/datasets/mkieffer/MEDEC 
 
-## <h2>License</h2>
+License
+=================
+
 - This work is released under the Creative Commons Attribution 4.0 International License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Please cite our paper if you use the full dataset or any subset of MEDEC: 
     
         @inproceedings{medec,
